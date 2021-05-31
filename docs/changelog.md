@@ -9,19 +9,14 @@ CHANGELOG
 
 ***Changes***
 
-Since 2021-06-04 0:00,UTC, all queries with `startTime` after 2021-06-04 0:00 UTC and range less than 7 days, the following changes will take effect.
+The following changes will take effect.
 
 
-About `address`:
-
-* `Mutli Send Transfer` transaction history.
-* `HTL_TRANSFER` transactions as receiver
-
-About `Asset`:
-
-* `quote asset` parameter can be passed to `asset` to search for NEW_ORDER, CANCEL_ORDER,MINI_TOKEN_LIST,LISTING transactions
-* `quote asset` or `base asset` parameter can be passed to `asset` to search for SUBMIT_PROPOSAL, SIDE_SUBMIT_PROPOSAL transactions
-* DEPOSIT_HTL HTL_TRANSFER, SIDE_DEPOSIT, TIME_LOCK, TIME_RELOCK, TRANSFER can deal with multiple assets, you can search by any of them.
+* `address` related `Mutli Send Transfer` transaction history will also be included;
+* If this address is the receiver of any `HTL_TRANSFER` , the related transactions history will also be included
+* `asset` parameter can be used to search for `quote asset` of NEW_ORDER, CANCEL_ORDER,MINI_TOKEN_LIST,LISTING transactions
+* `asset` parameter can be used to search for `quote asset` or `base asset` of SUBMIT_PROPOSAL, SIDE_SUBMIT_PROPOSAL transactions
+* DEPOSIT_HTL HTL_TRANSFER, SIDE_DEPOSIT, TIME_LOCK, TIME_RELOCK, TRANSFER can relate to multiple assets, you can search by any of them.
 
 
 ## Upcoming Changes in Binance Chain Mainnet API v0.7.2
