@@ -9,7 +9,7 @@ CHANGELOG
 
 ***Changes***
 
-Sincen 2021-06-04 0:00,UTC, all queries with `startTime` after 2021-06-04 0:00 UTC and range less than 7 days, the following changes will take effect.
+Since 2021-06-04 0:00,UTC, all queries with `startTime` after 2021-06-04 0:00 UTC and range less than 7 days, the following changes will take effect.
 
 
 About `address`:
@@ -19,8 +19,8 @@ About `address`:
 
 About `Asset`:
 
-* You can use `quote asset` parameter to search for NEW_ORDER, CANCEL_ORDER,MINI_TOKEN_LIST,LISTING transactions
-* You can use `quote asset` or `base asset` parameter to search for SUBMIT_PROPOSAL, SIDE_SUBMIT_PROPOSAL transactions
+* `quote asset` parameter can be passed to `asset` to search for NEW_ORDER, CANCEL_ORDER,MINI_TOKEN_LIST,LISTING transactions
+* `quote asset` or `base asset` parameter can be passed to `asset` to search for SUBMIT_PROPOSAL, SIDE_SUBMIT_PROPOSAL transactions
 * DEPOSIT_HTL HTL_TRANSFER, SIDE_DEPOSIT, TIME_LOCK, TIME_RELOCK, TRANSFER can deal with multiple assets, you can search by any of them.
 
 
