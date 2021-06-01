@@ -15,7 +15,7 @@ The following changes will take effect.
 * `address` related `Mutli Send Transfer` transaction history will also be included;
 * If this address is the receiver of any `HTL_TRANSFER` , the related transactions history will also be included
 * `asset` parameter can be used to search for `quote asset` of NEW_ORDER, CANCEL_ORDER,MINI_TOKEN_LIST,LISTING transactions
-* `asset` parameter can be used to search for `quote asset` or `base asset` of SUBMIT_PROPOSAL, SIDE_SUBMIT_PROPOSAL transactions
+* `asset` parameter can be used to search for `quote asset` or `base asset` of dex listing SUBMIT_PROPOSAL transactions
 * DEPOSIT_HTL HTL_TRANSFER, SIDE_DEPOSIT, TIME_LOCK, TIME_RELOCK, TRANSFER can relate to multiple assets, you can search by any of them.
 
 
